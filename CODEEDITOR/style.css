@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'poppins', sans-serif;
+    box-sizing:border-box;
+}
+body {
+    background:#fefffc;
+    padding: 20px 20px;
+    margin: 40px;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 35px;
+    display:flex;
+}
+#glass {
+    background: linear-gradient(135deg, rgba(201, 46, 46, 0.1), rgba(235, 12, 12, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(220, 78, 8, 0.962);
+}
+.left, .right {
+    flex-basis: 50%;
+    padding: 10px;
+}
+.g {
+    width: 100%;
+    height: 25%;
+    background: #f1ace5;
+    color:black;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 20px;
+    outline: 1px;
+    font-size: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(240, 232, 232, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(15, 14, 14, 0.919);
+    margin-top: 10px;
+
+}
+.r {
+    width: 100%;
+    height: 25%;
+    background: #f1ace5;
+    color:black;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 20px;
+    outline: 1px;
+    font-size: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(4, 4, 4, 0.37);
+    margin-top: 10px;
+}
+.y {
+    width: 100%;
+    height: 25%;
+    background: #f1ace5;
+    color:black;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 20px;
+    outline: 1px;
+    font-size: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(18, 17, 18, 0.925);
+    margin-top: 10px;
+}
+iframe {
+    width: 100%;
+    height: 88%;
+    background-color: rgb(146, 183, 227);
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(170, 194, 228, 0.915);
+    box-shadow: 0 8px 32px 0 rgba(6, 162, 253, 0.968);
+    margin-top: 10px;
+
+    
+}
+i {
+    margin: 5px;
+}
+label i {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+label {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.ram {
+    color: red;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
